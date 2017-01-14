@@ -1,9 +1,10 @@
 var React = require('react');
+var Nav = require('Navigation');
 
 var Main = (props) => {
     return (
         <div>
-            <p>Main js folder</p>
+            <Nav />
             {props.children}
         </div>
     );
